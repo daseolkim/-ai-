@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <style>
         h1{
-            border-bottom:10px solid blueviolet;
+            border-bottom:10px solid red;
             padding:30px;
         }
         
@@ -16,20 +16,32 @@
             }
 
         }
-        
-        @media all and (max-width: 480px) {
-            
-        }
 
         body{
-            font-family: 'Palette Mosaic', cursive;
+            
         }
     </style>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V28RVT1DFG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V28RVT1DFG');
+</script>
+
+</script>
 </head>
 <body>
+    <input type="button" value="night" onclick="
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+    ">
+    <input type="button" value="day" onclick="
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+    ">
     <h1><a href="index.html">WEB</a></h1>
     <div id="container">
         <ol>  
